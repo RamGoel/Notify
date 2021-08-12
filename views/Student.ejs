@@ -1,0 +1,22 @@
+<%-include('header')-%>
+
+
+
+        <form class=" shadow-5 bg-purple card w-20  br4 ml mr mt5 pa3" id="34" action="/regstudent" method="POST">
+            <input class="pa2 br3  w-80 bn bg-white ma3 db " placeholder="First Name" name="fname">
+            <input class="pa2 br3 bn  w-80 bg-white ma3 db " placeholder="Last name" name="lname">
+            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="Enrollment Number " name="ennum">
+            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="E-mail Address" name="email">
+            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="Contact Number" name="cnum">
+            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="Create Password" name="pass">
+            
+            <p class="f6 tc white ff pa0 "><%= validate%></p>
+            <button class=" br4 bn btn1 pa2  white  ff db center" type="submit">Submit</button>
+
+            <button class=" br4 bn btn1 pa2  white  ff db center " id="77 " ><a class="l1" href="/studentlogin">Already Registered! Login</a></button>
+        </form>
+        
+        
+        
+        
+<%-include('footer')-%>

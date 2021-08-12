@@ -1,0 +1,21 @@
+<%-include('header')-%>
+
+
+
+
+        <form action="/regadmin" method="POST" class=" shadow-5 bg-purple w-20 card  br4 mb3  ml mr mt5 pa3">
+            <input class="pa2 br3 w-80 bn bg-white ma3 db   " placeholder="First Name" name="fname" >
+            <input class="pa2 br3 w-80 bn bg-white ma3 db  " placeholder="Last name" name="lname">
+            <input class="pa2 br3 w-80 bn bg-white ma3 db  " placeholder="ID Number " name="id">
+            <input class="pa2 br3 w-80 bn bg-white ma3 db  " placeholder="E-mail Address" name="email">
+            <input class="pa2 br3 w-80 bn bg-white ma3 db  " placeholder="Contact Number" name="cnum">
+            <input class="pa2 br3 w-80 bn bg-white ma3 db  " placeholder="Create Password" name="pass">
+            
+            <p class="f6 tc white ff pa0 "><%= validate%></p>
+            <button class=" br4 bn btn1 pa2  white  ff db center" type="submit">Submit</button>
+            <button class=" br4 bn btn1 pa2  white  ff db center "><a class="l1" href="/adminlogin">Already Registered! Login</a></button>
+    </form>
+
+
+
+    <%-include('footer')-%>

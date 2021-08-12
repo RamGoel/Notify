@@ -1,0 +1,18 @@
+<%-include('header')-%>
+
+
+<h1 class="white tc ff f2  ">Hello Admin</h1>
+        <form class="tc  ff" action="/notify" method="POST">
+            
+            <input placeholder="Enter Your Name" type="text" class="ff pa2 shadow-3 br3 bn mr ml db w-60 mb3" name="admin-name">
+            <input placeholder="What's the Update About? " type="text" class="ff pa2 shadow-3 br3 bn mr ml db w-60 mb3" name="title">
+            <textarea placeholder="Describe the Update" rows="6" class="ff pa2 shadow-3 br3 bn mr ml db w-60 mb3" name="desc"></textarea>
+            
+            <button type="submit" class="pa2 mt3 f4 bg-blue white bn br3  mr ml mb3">Submit</button>
+            <button type="reset" class="pa2 mt3 f4 bg-blue white bn br3  mr ml mb3">Reset</button>
+            
+        </form>
+        
+       
+    
+    <%-include('footer')-%>

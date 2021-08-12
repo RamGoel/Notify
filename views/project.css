@@ -1,0 +1,73 @@
+.bn{
+    border: none;
+}
+.fr{
+    float: right;
+}
+
+*{
+    outline: none;
+    
+    padding: 0;
+}
+
+.we{
+    background-color:#5bd9e67a;
+}
+.mu{
+    margin-top: auto;
+}
+.mb{
+    margin-bottom: auto;
+}
+.mr{
+    margin-right: auto;
+}
+.ml{
+    margin-left: auto;
+}
+.ff{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ma{
+    margin: auto;
+}
+
+footer{
+   display: none;
+
+}
+
+.card2{
+    display: none;
+    width: fit-content;
+}
+.cc{
+    align-items: center;
+}
+body{
+    background-image: url("im1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.btn1{
+    background: none;
+}
+
+.card{
+    display: block;
+    
+    width: fit-content;
+    height: inherit;
+    
+}
+.l1{
+    text-decoration: none;
+    color: white;
+}
+
+.er{
+    border: 2px solid black;
+    margin: auto;
+}
