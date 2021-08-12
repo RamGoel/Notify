@@ -32,5 +32,5 @@ npm i body-parser nodemon ejs fomrmidable path nodemon
 
 
 
-after installation, type nodemon index.js
+after installation, type nodemon server.js
 
