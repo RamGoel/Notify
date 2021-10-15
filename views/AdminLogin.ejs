@@ -4,12 +4,16 @@
 
        
 
-<form action="/alogin" method="POST" class=" shadow-5 bg-purple card w-20  br4 ml mr mt6 pa3">
-    <input class="pa2 br3 bn w-80 bg-white ma2 db " placeholder="ID Number " name="IDnum" >
-    <input class="pa2 br3 bn w-80 bg-white ma2 db " placeholder="Password" name="pass">
+<form action="/alogin" method="POST" class=" regForm">
+    <h1 class="regFormTitle">Admin Login</h1>
+    <input class="regFormInput " placeholder="ID Number " type="Number" name="idNum" required  >
+    <input class="regFormInput " placeholder="Password" name="pass"required  type="text" >
     <br>
-    <button class=" br4 bn btn1 pa2  white  ff db center" id="45" type="submit">Login</button>
-    <button class=" br4 bn btn1 pa2  white  ff db center "><a class="l1" href="/radmin"> Not Registered! Signup</a></button>
+    <div class="regFormBtnDiv">
+
+        <button class=" regFormBtn" id="45" type="submit">Login</button>
+        <button class=" regFormBtn "><a class="l1" href="/radmin"> Not Registered! Signup</a></button>
+    </div>
 </form>
 
 

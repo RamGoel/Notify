@@ -2,18 +2,22 @@
 
 
 
-        <form class=" shadow-5 bg-purple card w-20  br4 ml mr mt5 pa3" id="34" action="/regstudent" method="POST">
-            <input class="pa2 br3  w-80 bn bg-white ma3 db " placeholder="First Name" name="fname">
-            <input class="pa2 br3 bn  w-80 bg-white ma3 db " placeholder="Last name" name="lname">
-            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="Enrollment Number " name="ennum">
-            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="E-mail Address" name="email">
-            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="Contact Number" name="cnum">
-            <input class="pa2 br3 bn w-80  bg-white ma3 db " placeholder="Create Password" name="pass">
+        <form class="regForm" id="34" action="/regstudent" method="POST">
+            <h1 class="regFormTitle">Student Register</h1>
+            <input class="regFormInput " required placeholder="First Name" name="fname">
+            <input class="regFormInput " required placeholder="Last name" name="lname">
+            <input class="regFormInput " required placeholder="Enrollment Number " name="enNum" type="number">
+            <input class="regFormInput " required placeholder="E-mail Address" name="email">
+            <input class="regFormInput " required placeholder="Contact Number" name="contact">
+            <input class="regFormInput " required placeholder="Create Password" name="pwd">
             
-            <p class="f6 tc white ff pa0 "><%= validate%></p>
-            <button class=" br4 bn btn1 pa2  white  ff db center" type="submit">Submit</button>
+            <p class="regFormMsg "><%= validate%></p>
+            <div class="regFormBtnDiv">
 
-            <button class=" br4 bn btn1 pa2  white  ff db center " id="77 " ><a class="l1" href="/studentlogin">Already Registered! Login</a></button>
+                <button class=" regFormBtn" type="submit">Submit</button>
+    
+                <button class=" regFormBtn " id="77 " ><a class="l1" href="/studentlogin">Already Registered! Login</a></button>
+            </div>
         </form>
         
         

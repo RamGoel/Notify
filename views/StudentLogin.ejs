@@ -3,12 +3,16 @@
 
 
 
-<form action="/slogin" method="POST" class=" shadow-5 bg-purple w-20 card  br4 ml mr mt6 pa3">
-    <input class="pa2 br3 bn w-80 bg-white ma2 db " placeholder="Enrollment Number " id="" name="ennum">
-    <input class="pa2 br3 bn w-80 bg-white ma2 db " placeholder="Password" name="pass">
+<form action="/slogin" method="POST" class=" regForm">
+    <h1 class="regFormTitle">Student Login</h1>
+    <input type="number" class="regFormInput " placeholder="Enrollment Number " id="" name="ennum" required>
+    <input type="string" class="regFormInput " placeholder="Password" name="pass" required>
     <br>
-    <button class=" br4 bn btn1 pa2  white  ff db center" id="45" type="submit">Login</button>
-    <button class=" br4 bn btn1 pa2  white  ff db center "><a class="l1" href="/rstudent"> Not Registered! Signup</a></button>
+    <div class="regFormBtnDiv">
+
+        <button class=" regFormBtn" id="45" type="submit">Login</button>
+        <button class=" regFormBtn "><a class="l1" href="/rstudent"> Not Registered! Signup</a></button>
+    </div>
 </form>
 
 <%-include('footer')-%>
