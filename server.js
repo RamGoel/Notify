@@ -5,7 +5,7 @@ const ejs=require('ejs');
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose')
 const url="mongodb://localhost:27017/notify"
-const port=3000
+const port=process.env.PORT || 3000
 
 
 
