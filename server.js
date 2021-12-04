@@ -4,7 +4,7 @@ const path=require('path');
 const ejs=require('ejs');
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose')
-const url="mongodb+srv://ramgoel19:itsram777@cluster0.8jszl.mongodb.net/edutify?retryWrites=true&w=majority"
+const url="mongodb+srv://lekhak-user:ram123@cluster0.wtutu.mongodb.net/edutify?retryWrites=true&w=majority"
 const port=process.env.PORT || 3000
 
 
