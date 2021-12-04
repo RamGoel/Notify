@@ -4,7 +4,7 @@ const path=require('path');
 const ejs=require('ejs');
 const bodyParser=require('body-parser');
 const mongoose=require('mongoose')
-const url="mongodb://localhost:27017/notify"
+const url="mongodb+srv://ramgoel19:<password>@cluster0.w08uy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const port=process.env.PORT || 3000
 
 
