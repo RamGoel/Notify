@@ -1,0 +1,20 @@
+.mauto{
+    margin: auto;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+}
+
+#homeDiv{
+    height: 80vh;
+}
+
+a :hover{
+    text-decoration: none;
+}
+
+.newsContainer{
+    background-color:#0efd1235
+}

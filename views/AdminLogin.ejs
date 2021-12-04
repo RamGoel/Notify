@@ -4,15 +4,15 @@
 
        
 
-<form action="/alogin" method="POST" class=" regForm">
-    <h1 class="regFormTitle">Admin Login</h1>
-    <input class="regFormInput " placeholder="ID Number " type="Number" name="idNum" required  >
-    <input class="regFormInput " placeholder="Password" name="pass"required  type="text" >
+<form action="/alogin" method="POST" class=" regForm container col-sm-4">
+    <h1 class="ma3 b white">Admin Login</h1>
+    <input class="form-control ma1  " placeholder="ID Number " type="Number" name="idNum" required  >
+    <input class="form-control ma1  " placeholder="Password" name="pass"required  type="password" >
     <br>
     <div class="regFormBtnDiv">
 
-        <button class=" regFormBtn" id="45" type="submit">Login</button>
-        <button class=" regFormBtn "><a class="l1" href="/radmin"> Not Registered! Signup</a></button>
+        <button class=" btn-dark pa2 br3 bg-dark white" id="45" type="submit">Login</button>
+        <a class="white btn-link" href="/radmin"> <button class=" btn-dark pa2 br3 bg-dark white" type="button">Not Registered! Signup</button></a>
     </div>
 </form>
 

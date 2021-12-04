@@ -1,19 +1,20 @@
 <%-include('header')-%>
 
-<div class="">
-<h1 class="panelHead">Hello Student</h1>
+<div class="container">
+<h1 class="white b  ma2 f2">Hello Student</h1>
+<p class="white ma2 bg-success pa2 ">We have some updates for you</p>
         
             
 
                 <% for(var i = 0; i < data.length; i++)  {  %>
-                    <div class="infoDiv ">
-                    <div class="infoHeader">
+                    <div class="container newsContainer white pa2 pl3 br3 ma2 w-90">
+                    <div class="">
 
-                    <h1 class="infoHead"><%= data[i].title %></h1>
+                    <h1 class="b"><%= data[i].title %></h1>
                     
                     </div>
                         <p class="infoText"><%= data[i].desc %></p>
-                        <hr class="o-70"><div class="infoMeta"><p class="infoWriter">-<%= data[i].name %></p>
+                        <hr class="o-70 white"><div class="infoMeta"><p class="infoWriter"><i class="fa fa-user mr2"></i><%= data[i].name %></p>
                             
                         </div></div>
                 <% } %>

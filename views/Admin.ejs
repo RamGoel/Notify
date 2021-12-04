@@ -3,20 +3,20 @@
 
 
 
-        <form action="/regAdmin" method="POST" class="regForm">
-                <h1 class="regFormTitle">Admin Register</h1>
-            <input class="regFormInput   " placeholder="First Name" required name="fname" >
-            <input class="regFormInput  " placeholder="Last name" required name="lname">
-            <input class="regFormInput  " placeholder="ID Number " required name="idNum">
-            <input class="regFormInput  " placeholder="E-mail Address" required name="email">
-            <input class="regFormInput  " placeholder="Contact Number" required name="contact">
-            <input class="regFormInput  " placeholder="Create Password" required name="pwd">
+        <form action="/regAdmin" method="POST" class="regForm container col-sm-4">
+                <h1 class=" ma3 b white">Admin Register</h1>
+            <input class="form-control ma1  " placeholder="First Name" required name="fname" >
+            <input class="form-control ma1 " placeholder="Last name" required name="lname">
+            <input class="form-control ma1 " placeholder="ID Number " required name="idNum">
+            <input class="form-control ma1 " placeholder="E-mail Address" required name="email">
+            <input class="form-control ma1 " placeholder="Contact Number" required name="contact">
+            <input class="form-control ma1 " placeholder="Create Password" required name="pwd" type="password">
             
             <p class="regFormMsg"><%= validate%></p>
-            <div class="regFormBtnDiv">
+            <div class="tc ">
 
-                    <button class="regFormBtn" type="submit">Submit</button>
-                    <button class="regFormBtn "><a class="l1" href="/adminlogin">Already Registered! Login</a></button>
+                    <button class="btn-dark pa2 br3 bg-dark white" type="submit">Submit</button>
+                    <a class="white btn-link" href="/adminlogin"><button class="btn-dark pa2 br3 bg-dark " type="button">Already Registered! Login</button></a>
             </div>
     </form>
 
