@@ -1,7 +1,7 @@
 # Notify
  A Student Notification System in NodeJS
 
-<img src="im1 (1).png
+<img src="im1 (1).png">
 Allows Organisations to Create a Online Notification System for Students or Employees.
           <br>
           <hr>
