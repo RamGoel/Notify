@@ -1,15 +1,10 @@
 # Notify
  A Student Notification System in NodeJS
- 
- 
- 
- Hello,
 
-Hope you are doing well
-
-
-This is a file sharing app made in express js, made by Ram Goel.
-
+<img src="im1 (1).png
+Allows Organisations to Create a Online Notification System for Students or Employees.
+          <br>
+          <hr>
 
 
 
