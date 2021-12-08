@@ -1,5 +1,5 @@
 # Notify
- A DBMS based Notification System for Schools/Organisations Made in NodeJS
+ A DBMS based College Information System Made in NodeJs that allows Teachers and students to register and view all the updates and information from the college.
 
 <img src="im1 (1).png">
 Allows Organisations to Create a Online Notification System for Students or Employees.
